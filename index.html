@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form class="form">
+        <label class="form__label">
+          <p class="form__title">Enter the text to be analyzed, please</p>
+          <textarea
+            name="text"
+            id="str"
+            class="form__textarea"
+            cols="30"
+            rows="10"
+          ></textarea>
+        </label>
+        <div class="form__btns-container">
+          <button type="submit" class="form__btn">Get an answer</button>
+          <button type="reset" class="form__btn">Reset</button>
+        </div>
+      </form>
+      <div class="timer">
+        <p class="timer__text"></p>
+        <p class="timer__value"></p>
+      </div>
+    </div>
+    <script src="./js/index.js" type="module"></script>
+  </body>
+</html>
